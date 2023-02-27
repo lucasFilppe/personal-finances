@@ -6,12 +6,12 @@ export const Container = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: -10rem;
     gap: 2rem;
+    background: 	#A9A9A9;
 
     div{
-        background: var(--shape);
         padding: 1.5rem 2rem;
         border-radius: 0.25rem;
-        color: var(--text-title);
+        color: while;
 
         header{
             display: block;
