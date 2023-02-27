@@ -16,5 +16,22 @@ export const Container = styled.div`
 					line-height: 1.4rem;
 					
 				}
+
+				td{
+					padding: 1rem 2rem;
+          border: 0;
+          background:  #ffff;
+          border-radius: 0.2543mm;
+
+        &:first-child{
+          color: #363f5f;
+        }
+        &.negativo{
+          color: red;
+        }
+        &.positivo{
+          color: green;
+        }
+      }
     }
 `

@@ -6,7 +6,7 @@ export const Container = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: -10rem;
     gap: 2rem;
-    background: 	#A9A9A9;
+    background:  #f8f2f5;
 
     div{
         padding: 1.5rem 2rem;

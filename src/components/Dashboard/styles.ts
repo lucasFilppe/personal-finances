@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-    border: 2px solid pink;
+    border: 10px solid pink;
     max-width: 1120px;
     margin: 0 auto;
     padding: 2.5rem;
