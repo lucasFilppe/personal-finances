@@ -7,3 +7,5 @@
 ### `api`
 
 - useEffect : recebe uma função como primeiro parametro e um segundo parametro é um array de dependencias. No primeiro parametro adicionamos a função que queremos que execute, ja no segundo parametro adicionamos quando é que essa função sera executada
+- fech: [documentação](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch);
+
