@@ -66,6 +66,11 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     .react-modal-content{
-        
+        width: 100%;
+        max-width: 576px;
+        background: whitesmoke;
+        padding: 3rem;
+        border-radius: relative;
+        border-radius: 0.24rem;
     }
 `
