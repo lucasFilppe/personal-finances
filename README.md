@@ -12,3 +12,5 @@
 - axios: 
 Cliente HTTP baseado em promessas para o navegador e Node.js [axios.com](https://axios-http.com/ptbr/docs/intro)
 - react-modal[site](https://www.npmjs.com/package/react-modal)
+
+### ´contexto´
