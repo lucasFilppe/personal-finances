@@ -12,6 +12,35 @@ createServer({
 
   },
 
+  //iniciando uma transação no banco de dados
+  seeds(server){
+    server.db.loadData({
+      transactions: [
+        {
+          id: '1',
+          title: 'Freelancer desenvolvimento',
+          type: 'deposit',
+          category: 'Dev',
+          amount: 5000,
+          createdAt: new Date()
+
+        },
+
+        {
+          id: '2',
+          title: 'Luz',
+          type: 'withdraw',
+          category: 'Despeza',
+          amount: 1000,
+          createdAt: new Date()
+
+        },
+
+
+      ]
+    })
+  },
+
   routes() {
     this.namespace = "api";
 
